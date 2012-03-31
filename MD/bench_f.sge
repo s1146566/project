@@ -1,0 +1,8 @@
+#!/usr/bin/bash
+#$ -A  s01
+#$ -V
+#$ -l h_rt=:30:
+#$ -pe mpi 2
+#$ -cwd
+cd Fortran 
+./MD
